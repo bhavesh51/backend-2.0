@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "bhaveshsadhu",
+  "license": "ISC",
+  "dependencies": {
+    "authorizenet": "^1.0.7",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "simple-oauth2": "^4.1.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
